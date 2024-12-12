@@ -1,0 +1,17 @@
+Index: src/PoolExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/PoolExample.java b/src/PoolExample.java
+--- a/src/PoolExample.java	
++++ b/src/PoolExample.java	
+@@ -20,7 +20,7 @@
+         AtomicInteger inProgress = new AtomicInteger(0);
+ 
+         // отправляем задачи на выполнение
+-        for (int i = 0; i < 50; i++) {
++        for (int i = 0; i < 30; i++) {
+             final int number = i;
+ 
+             System.out.println("creating #" + number);
